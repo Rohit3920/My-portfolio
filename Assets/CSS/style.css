@@ -1,5 +1,40 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
+#profile {
+    min-height: 500px;
+    padding-bottom: 50px;
+}
+
+profile {
+    background-color: rgb(34, 57, 58);
+}
+
+#profile img {
+    margin: 100px auto 20px auto;
+    width: 350px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+#profile img:hover {
+    transition-property: transform;
+    transition-delay: 0.2s;
+    transition-duration: 2s;
+    transform: rotateY(360deg);
+    transition-timing-function: linear;
+}
+
+#profile h1 {
+    font-size: 45px;
+    width: fit-content;
+    margin: 0 auto;
+    border-bottom: 0.01rem solid white;
+}
+
+ul li {
+    list-style: none;
+    line-height: 30px;
+}
