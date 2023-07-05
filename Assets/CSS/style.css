@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-#profile, #about  {
+#profile, #about, #education {
     min-height: 500px;
     padding-bottom: 50px;
 }
@@ -44,8 +44,15 @@ ul > li {
     background-size: cover;
     padding: 30px;
 }
+.head {
+    padding-top: 50px;
+    color: white;
+}
 .content {
     color: white;
     font-size: 20px;
     padding-top: 30px;
+}
+.ed-img{
+    height: 160px;
 }
