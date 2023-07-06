@@ -52,7 +52,7 @@
                         <a class="dropdown-item" href="#education">Education</a>
                         <a class="dropdown-item" href="#hobbies">Hobbies</a>
                         <a class="dropdown-item" href="#skills">Skills</a>
-                        <a class="dropdown-item" href="#">Contact Us</a>
+                        <a class="dropdown-item" href="#contact">Contact Us</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Something else here</a>
                     </div>
@@ -62,10 +62,10 @@
     </nav>
 
 
-    <div id="profile" class="text-center bg-secondary"> <!-- my profile  -->
+    <div id="profile" class="text-center "> <!-- my profile  -->
         <img src="Assets/MultiMedia/Img/My-pic.jpeg" alt="Picture are missing">
 
-        <h1 class="heading text-light">Rohit Nittawadekar</h1>
+        <h1 class="heading ">Rohit Nittawadekar</h1>
     </div>
 
     <div id="about">
@@ -167,10 +167,10 @@
     <div id="skills">
         <div class="container">
             <div class="row">
-                <h1 class="head text-light col-12 mb-5">Skills</h1>
+                <h1 class="head text-dark col-12 mb-5">Skills</h1>
 
                 <div class="text-center col-12 col-md-4 mb-2">
-                    <h3 style="color: rgb(7, 254, 40)">
+                    <h3 class="text-danger">
                         <ul>
                             <li>Windows 10</li>
                             <li>PhotoShop</li>
@@ -181,7 +181,7 @@
                     </h3>
                 </div>
                 <div class="text-center col-12 col-md-4 mb-2">
-                    <h3 style='color: rgb(1, 1, 1)'>
+                    <h3 class="text-light">
                         <ul>
                             <li>HTML5</li>
                             <li>CSS3</li>
@@ -210,26 +210,28 @@
     <div id="contact">
         <div class="container pb-5">
             <div class="row text-center">
-                <h1 class="head text-dark col-12 mb-5">Contact Us</h1>
+                <div class="head col-12 mb-5">
+                    <h1>Contact Us</h1>
+                </div>
 
-                <table class="col-12 col-lg-8 m-auto table-bordered border-primary">
+                <table class="col-12 col-lg-8 m-auto table-bordered border-primary text-light">
                     <form action="">
                         <tbody class="p-1">
                             <tr>
-                                <td>User Name</td>
-                                <td><input type="text" name="userName" id="un"></td>
+                                <td class="bg-darken text-light">User Name</td>
+                                <td><input class="m-2 p-1 rounded" type="text" name="userName" id="un"></td>
                             </tr>
                             <tr>
-                                <td>Email ID</td>
-                                <td><input type="email" name="email-id" id="un"></td>
+                                <td class="bg-darken text-light">Email ID</td>
+                                <td><input class="m-2 p-1 rounded" type="email" name="email-id" id="un"></td>
                             </tr>
                             <tr>
-                                <td>Contact</td>
-                                <td><input type="number" name="contact" id="un"></td>
+                                <td class="bg-darken text-light">Contact</td>
+                                <td><input class="m-2 p-1 rounded" type="number" name="contact" id="un"></td>
                             </tr>
                             <tr>
-                                <td>Massege</td>
-                                <td><textarea rows="10" cols="40" name="msg" id="msg" maxlength="100"></textarea></td>
+                                <td class="bg-darken text-light">Massege</td>
+                                <td><textarea class="m-2 p-1 rounded" rows="10" cols="40" name="msg" id="msg" maxlength="100"></textarea></td>
                             </tr>
                             <tr>
                                 <td colspan="2" class="p-3">

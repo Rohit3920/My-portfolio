@@ -4,12 +4,15 @@
 }
 
 #profile, #about, #education, #hobbies {
-    min-height: 500px;
+    min-height: 550px;
     padding-bottom: 50px;
 }
 
-profile {
-    background-color: rgb(34, 57, 58);
+#profile {
+    background-image: url("/Assets/MultiMedia/Img/templete-8.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: inherit;
 }
 
 #profile img {
@@ -17,6 +20,7 @@ profile {
     width: 350px;
     height: 300px;
     border-radius: 50%;
+    box-shadow: 0 0 10px 0.2px white;
 }
 
 #profile img:hover {
@@ -28,6 +32,9 @@ profile {
 }
 
 #profile h1 {
+    background: -webkit-linear-gradient(180deg, #b3b57d, #4d4d4d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 45px;
     width: fit-content;
     margin: 0 auto;
@@ -72,7 +79,8 @@ ul>li {
 }
 
 #skills {
-    background-image: url("https://cdn.acodez.in/wp-content/uploads/2019/07/What-is-the-future-and-scope-of-web-development-career-banner.jpg");
+    /* background-image: url("https://cdn.acodez.in/wp-content/uploads/2019/07/What-is-the-future-and-scope-of-web-development-career-banner.jpg"); */
+    background-image: url("/Assets/MultiMedia/Img/templete-2.jpg");
     background-size: cover;
     width: 100%;
     padding: 40px;
@@ -88,6 +96,23 @@ ul>li {
     background: rgba(211, 211, 211, 0.263);
 }
 
-#contact{
-    background-color: lightseagreen;
+#contact {
+    /* background-color: lightseagreen; */
+    background-image: url("/Assets/MultiMedia/Img/templete-11.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-darken{
+    background-color: #34343491;
+}
+
+#contact input:focus, #contact textarea:focus{
+    border: none;
+    outline: none;
+}
+
+#contact .head h1{
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: #4d4d4d77;
 }
