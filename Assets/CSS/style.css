@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-#profile, #about, #education, #hobbies{
+#profile, #about, #education, #hobbies {
     min-height: 500px;
     padding-bottom: 50px;
 }
@@ -34,7 +34,7 @@ profile {
     border-bottom: 0.01rem solid white;
 }
 
-ul > li {
+ul>li {
     /* list-style: none; */
     line-height: 35px;
 }
@@ -44,26 +44,46 @@ ul > li {
     background-size: cover;
     padding: 30px;
 }
+
 .head {
     padding-top: 50px;
     color: white;
 }
+
 .content {
     color: white;
     font-size: 20px;
     padding-top: 30px;
 }
-.ed-img{
+
+.ed-img {
     height: 160px;
 }
 
-#hobbies{
+#hobbies {
     background-color: rgb(242, 255, 144);
 }
 
-#hobbies img:hover ~ h2, #hobbies img:hover {
+#hobbies img:hover~h2, #hobbies img:hover {
     width: 200px;
     margin: auto;
     color: rgb(255, 111, 0);
     text-decoration: underline;
+}
+
+#skills {
+    background-image: url("https://cdn.acodez.in/wp-content/uploads/2019/07/What-is-the-future-and-scope-of-web-development-career-banner.jpg");
+    background-size: cover;
+    width: 100%;
+    padding: 40px;
+}
+
+#skills ul li {
+    list-style: none;
+    line-height: 55px;
+}
+
+#skills ul li:hover {
+    border-radius: 30px;
+    background: rgba(211, 211, 211, 0.263);
 }
