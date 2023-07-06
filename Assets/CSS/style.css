@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-#profile, #about, #education {
+#profile, #about, #education, #hobbies{
     min-height: 500px;
     padding-bottom: 50px;
 }
@@ -55,4 +55,15 @@ ul > li {
 }
 .ed-img{
     height: 160px;
+}
+
+#hobbies{
+    background-color: rgb(34, 57, 58);
+}
+
+#hobbies img:hover ~ h4, #hobbies img:hover {
+    width: 200px;
+    margin: auto;
+    color: white;
+    text-decoration: underline;
 }
