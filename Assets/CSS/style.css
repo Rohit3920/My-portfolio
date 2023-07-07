@@ -20,7 +20,7 @@
     width: 350px;
     height: 300px;
     border-radius: 50%;
-    box-shadow: 0 0 10px 0.2px white;
+    box-shadow: 0 0 10px 0.2px black;
 }
 
 #profile img:hover {
@@ -57,6 +57,13 @@ ul>li {
     color: white;
 }
 
+.round {
+    border: 1px solid;
+    padding: 0 4px;
+    background-color: rgba(93, 162, 247, 0.3);
+    border-radius: 10px;
+}
+
 .content {
     color: white;
     font-size: 20px;
@@ -79,7 +86,6 @@ ul>li {
 }
 
 #skills {
-    /* background-image: url("https://cdn.acodez.in/wp-content/uploads/2019/07/What-is-the-future-and-scope-of-web-development-career-banner.jpg"); */
     background-image: url("/Assets/MultiMedia/Img/templete-2.jpg");
     background-size: cover;
     width: 100%;
@@ -97,22 +103,75 @@ ul>li {
 }
 
 #contact {
-    /* background-color: lightseagreen; */
     background-image: url("/Assets/MultiMedia/Img/templete-11.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
-.bg-darken{
+
+.bg-darken {
     background-color: #34343491;
 }
 
-#contact input:focus, #contact textarea:focus{
+#contact input:focus, #contact textarea:focus {
     border: none;
     outline: none;
 }
 
-#contact .head h1{
+#contact .head h1 {
     border: 1px solid white;
     border-radius: 30px;
     background-color: #4d4d4d77;
+}
+
+#project .head h1 {
+    background: -webkit-linear-gradient(180deg, #00a6ff, #ff9500);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pj-logo {
+    width: 50px;
+    animation: rotation 2s infinite linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+.pj-logo-t {
+    width: 50px;
+    animation: translate 2s infinite linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes translate {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotatey(359deg);
+    }
+}
+
+.pj-show {
+    margin: auto;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.show-img {
+    width: 290px;
+}
+
+.bg-fluid {
+    background-color: #4d4d4d3d;
 }
