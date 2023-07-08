@@ -149,7 +149,7 @@ ul>li {
 .pj-logo-t {
     width: 50px;
     animation: translate 2s infinite linear;
-    animation-duration: 5s;
+    animation-duration: 7s;
     animation-iteration-count: infinite;
 }
 
@@ -173,5 +173,5 @@ ul>li {
 }
 
 .bg-fluid {
-    background-color: #4d4d4d3d;
+    /* background-color: #4d4d4d3d; */
 }
