@@ -233,6 +233,22 @@ ul>li {
     }
 }
 
+.pj-logo-common{
+    animation: translates 2s infinite linear;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes translates {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotatey(359deg);
+    }
+}
+
 .pj-show {
     margin: auto;
     max-width: 300px;
@@ -242,3 +258,4 @@ ul>li {
 .show-img {
     width: 290px;
 }
+
