@@ -86,21 +86,30 @@ html, body {
         left: -30px;
     }
 
-        @media only screen and (max-width: 767px) {
-            #profile #profile-logo {
-                width: 300px;
-                height: 300px;
-                top: 2rem;
-                left: 10rem;
-            }
-        
-            #profile #profile-content {
-                top: 14rem;
-                left:3rem;
-            }
+    @media only screen and (max-width: 576px) {
+        #profile #profile-logo {
+            width: 300px;
+            height: 300px;
+            top: 2rem;
+            left: 13%;
         }
-}
 
+        #profile #profile-content {
+            top: 15rem;
+            left: 10%;
+            border-radius:  45%;
+        }
+
+        #profile-content h1.heading {
+            font-size: 24px;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+        #profile-content h4{
+            font-size: 20px;
+        }
+    }
+}
 
 ul>li {
     list-style: none;
