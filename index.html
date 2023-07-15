@@ -25,6 +25,7 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
 
+        <link rel="stylesheet" href="Assets/CSS/profileStyle.css">
     <link rel="stylesheet" href="Assets/CSS/style.css">
 </head>
 
@@ -75,7 +76,58 @@
     </nav>
 
 
-    <div id="profile" class="text-center"> <!-- my profile  -->
+    <div id="profile">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col-12 col-lg-6 order-lg-2">
+                    <div class="w-100 h-100">
+                        <!-- <img id="profile-img" class="w-100" src="Assets/MultiMedia/Img/My-Photo-png.png" alt=""> -->
+                        <div id="blob" class="wrapper w-100 h-100">
+                            <div class="box">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 order-lg-1">
+                    <div id="profile-content" class="position-relative text-light text-left pl-5">
+                        <p class="text-left mt-0 pt-0 ml-4 m-0 mt-sm-5 pt-sm-4 pt-0">Hello, It's Me</p>
+                        <h1 class="pt-0 pt-lg-3 heading">Rohit Nittawadekar</h1>
+                        <h4>And I'm a <Span id="typed-text" class="text-primary"></Span>.</h4>
+                        <p>This is my official portfolio website to showes all details  and work experience for <br>
+                            <span class="text-warning">WEB DEVELOPMENT</span>
+                        </p>
+                        <ul>
+                            <li class="social-icon">
+                                <a href="https://www.linkedin.com/in/rohit-nittawadekar-922984265/" target="_blank"><i
+                                        class="fa-brands fa-linkedin-in"></i></a>
+                            </li>
+                            <li class="social-icon">
+                                <a href="https://github.com/Rohit3920" target="_blank"><i class="fa-brands fa-github"
+                                        target="_blank"></i></a>
+                            </li>
+                            <li class="social-icon">
+                                <a href="https://instagram.com/mh09.rohit.96k?igshid=ZDdkNTZiNTM=" target="_blank"><i
+                                        class="fa-brands fa-instagram"></i></a>
+                            </li>
+                            <li class="social-icon">
+                                <a href="https://www.facebook.com/rohit.nittawadekar" target="_blank"><i
+                                        class="fa-brands fa-facebook"></i></a>
+                            </li>
+                            <li class="social-icon">
+                                <a href="https://replit.com/@rohitnittawadek"><i class="fa-solid fa-robot"></i></a>
+                            </li>
+                        </ul>
+                        <a id="downloadCV" class="btn ml-5 mt-2 btn-danger mb-3 text-light border border-light"
+                            href="https://drive.google.com/file/d/1wkChoOpzvEUn54VrjnU3cdwluJ1YRqBp/view?usp=drive_link"
+                            download="Rohit Resume">Download CV</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- <div id="profile" class="text-center"> 
         <div class="container">
             <div class="m-0 position-relative mb-5">
                 <div id="profile-logo" class="position-absolute">
@@ -110,7 +162,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <div id="about">
         <div class="container">
@@ -255,7 +307,7 @@
 
     <div id="project">
         <div class="container-fluid">
-            <div class="row text-center mb-5">
+            <div class="row text-center pb-5">
                 <div class="head col-12 text-info">
                     <h1>My Projects</h1>
                     <hr>
@@ -673,6 +725,7 @@
         </div>
     </div>
 
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="Assets/Js/script.js"></script>
 </body>
 
