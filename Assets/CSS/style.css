@@ -12,6 +12,18 @@
         --primary-color: #00a6ff;
     }
 
+    .my-logo h1{
+        color: #ff9500;
+        font-weight: 900;
+        font-family: "Lucida Console", "Courier New", monospace;
+        font-style: italic;
+    }
+     .my-logo h5{
+        font-weight: 900;
+        /* border-top: 1px solid  #ff9500; */
+        font-family: "Times New Roman", Times, serif;
+    }
+
     #profile {
         min-height: 640px;
         padding-bottom: 10px;

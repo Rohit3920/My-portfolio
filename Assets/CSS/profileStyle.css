@@ -38,6 +38,16 @@ body {
             width: 250px;
             height: 250px;
         }
+
+        .my-logo{
+            max-width: 150px;
+            max-height: 50px;
+        }
+
+        .my-logo h5{
+            display: none;
+            visibility: hidden;
+        }
     }
 }
 
