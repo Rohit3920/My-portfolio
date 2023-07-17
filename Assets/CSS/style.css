@@ -1,193 +1,193 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-
-html, body {
-    overflow-x: hidden;
-    scroll-behavior:smooth;
-}
-
-:root {
-    --primary-color: #00a6ff;
-}
-
-#profile {
-    min-height: 640px;
-    padding-bottom: 10px;
-}
-
-#about, #education, #hobbies {
-    min-height: 550px;
-    padding-bottom: 50px;
-}
-
-#education, #project{
-    background-color: white;
-}
-
-ul>li {
-    list-style: none;
-    line-height: 35px;
-}
-
-#about {
-    background-color: rgb(28, 57, 58);
-    background-size: cover;
-    padding: 30px;
-    position: relative;
-    z-index: 3;
-}
-
-.head {
-    padding-top: 50px;
-    color: white;
-}
-
-.round {
-    border: 1px solid;
-    padding: 0 4px;
-    background-color: rgba(93, 162, 247, 0.3);
-    border-radius: 10px;
-}
-
-.content {
-    color: white;
-    font-size: 20px;
-    padding-top: 30px;
-}
-
-.ed-img {
-    height: 160px;
-}
-
-#hobbies {
-    background-color: rgb(242, 255, 144);
-}
-
-#hobbies img:hover~h2, #hobbies img:hover {
-    width: 200px;
-    margin: auto;
-    color: rgb(255, 111, 0);
-    text-decoration: underline;
-}
-
-#skills {
-    background-image: url("/Assets/MultiMedia/Img/templete-2.jpg");
-    background-size: cover;
-    width: 100%;
-    padding: 40px;
-}
-
-#skills ul li {
-    list-style: none;
-    line-height: 55px;
-}
-
-#skills ul li:hover {
-    border-radius: 30px;
-    background: rgba(211, 211, 211, 0.263);
-}
-
-#contact {
-    background-image: url("/Assets/MultiMedia/Img/templete-11.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.bg-darken {
-    background-color: #34343491;
-}
-
-#contact input:focus, #contact textarea:focus {
-    border: none;
-    outline: none;
-}
-
-#contact .head h1 {
-    border: 1px solid white;
-    border-radius: 30px;
-    background-color: #4d4d4d77;
-}
-
-#project .head h1 {
-    background: -webkit-linear-gradient(180deg, #00a6ff, #ff9500);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.pj-logo {
-    width: 50px;
-    animation: rotation 2s infinite linear;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes rotation {
-    from {
-        transform: rotate(0deg);
+    * {
+        padding: 0;
+        margin: 0;
     }
 
-    to {
-        transform: rotate(359deg);
-    }
-}
-
-.pj-logo-t {
-    width: 50px;
-    animation: translate 2s infinite linear;
-    animation-duration: 7s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes translate {
-    from {
-        transform: rotateY(0deg);
+    html, body {
+        overflow-x: hidden;
+        scroll-behavior:smooth;
     }
 
-    to {
-        transform: rotatey(359deg);
-    }
-}
-
-.pj-logo-common{
-    animation: translates 2s infinite linear;
-    animation-duration: 12s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes translates {
-    from {
-        transform: rotateY(0deg);
+    :root {
+        --primary-color: #00a6ff;
     }
 
-    to {
-        transform: rotatey(359deg);
+    #profile {
+        min-height: 640px;
+        padding-bottom: 10px;
     }
-}
 
-.pj-show {
-    margin: auto;
-    max-width: 300px;
-    max-height: 300px;
-}
+    #about, #education, #hobbies {
+        min-height: 550px;
+        padding-bottom: 50px;
+    }
 
-.hover-shadow{
-    background-color: rgba(255, 255, 255, 0.486);
-    border-radius: 50px;
-}
-.hover-shadow:hover{
-    box-shadow: 1px 1px 4px 1px #1dbbffd3;
-}
+    #education, #project{
+        background-color: white;
+    }
+
+    ul>li {
+        list-style: none;
+        line-height: 35px;
+    }
+
+    #about {
+        background-color: rgb(28, 57, 58);
+        background-size: cover;
+        padding: 30px;
+        position: relative;
+        z-index: 3;
+    }
+
+    .head {
+        padding-top: 50px;
+        color: white;
+    }
+
+    .round {
+        border: 1px solid;
+        padding: 0 4px;
+        background-color: rgba(93, 162, 247, 0.3);
+        border-radius: 10px;
+    }
+
+    .content {
+        color: white;
+        font-size: 20px;
+        padding-top: 30px;
+    }
+
+    .ed-img {
+        height: 160px;
+    }
+
+    #hobbies {
+        background-color: rgb(242, 255, 144);
+    }
+
+    #hobbies img:hover~h2, #hobbies img:hover {
+        width: 200px;
+        margin: auto;
+        color: rgb(255, 111, 0);
+        text-decoration: underline;
+    }
+
+    #skills {
+        background-image: url("/Assets/MultiMedia/Img/templete-2.jpg");
+        background-size: cover;
+        width: 100%;
+        padding: 40px;
+    }
+
+    #skills ul li {
+        list-style: none;
+        line-height: 55px;
+    }
+
+    #skills ul li:hover {
+        border-radius: 30px;
+        background: rgba(211, 211, 211, 0.263);
+    }
+
+    #contact {
+        background-image: url("/Assets/MultiMedia/Img/templete-11.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bg-darken {
+        background-color: #34343491;
+    }
+
+    #contact input:focus, #contact textarea:focus {
+        border: none;
+        outline: none;
+    }
+
+    #contact .head h1 {
+        border: 1px solid white;
+        border-radius: 30px;
+        background-color: #4d4d4d77;
+    }
+
+    #project .head h1 {
+        background: -webkit-linear-gradient(180deg, #00a6ff, #ff9500);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .pj-logo {
+        width: 50px;
+        animation: rotation 2s infinite linear;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes rotation {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(359deg);
+        }
+    }
+
+    .pj-logo-t {
+        width: 50px;
+        animation: translate 2s infinite linear;
+        animation-duration: 7s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes translate {
+        from {
+            transform: rotateY(0deg);
+        }
+
+        to {
+            transform: rotatey(359deg);
+        }
+    }
+
+    .pj-logo-common{
+        animation: translates 2s infinite linear;
+        animation-duration: 12s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes translates {
+        from {
+            transform: rotateY(0deg);
+        }
+
+        to {
+            transform: rotatey(359deg);
+        }
+    }
+
+    .pj-show {
+        margin: auto;
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .hover-shadow{
+        background-color: rgba(255, 255, 255, 0.486);
+        border-radius: 50px;
+    }
+    .hover-shadow:hover{
+        box-shadow: 1px 1px 4px 1px #1dbbffd3;
+    }
 
 
-#contact i{
-    font-size: 50px;
-    padding: 10px;
-}
+    #contact i{
+        font-size: 50px;
+        padding: 10px;
+    }
 
-.show-img {
-    width: 290px;
-}
+    .show-img {
+        width: 290px;
+    }
 
 
